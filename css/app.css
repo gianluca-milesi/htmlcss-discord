@@ -118,24 +118,31 @@ h1{
     display: flex;
     align-items: flex-end;
 }
+
 .wave-lower-border{
     color: rgb(246, 246, 246);
     display: flex;
     transform: scaleY(-1);
     align-items: flex-start;
 }
+
 .wave-upper-border{
     color: rgb(246, 246, 246);
     display: flex;
     align-items: flex-end;
 }
 
-.vocal-banner {
-    background-color: rgb(246, 246, 246);
+.video-banner .container .subtitle{
+    padding: 40px 0;
+    background: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.customer-reviews{
-    background-color: rgb(211, 211, 211);
+.video-image{
+    width: 100%;
+    height: 100%;
 }
 
 .categories{
@@ -170,14 +177,6 @@ h1{
     padding: 80px 0;
 }
 
-.w-600 {
-    max-width: 600px;
-}
-
-.h-250{
-    height: 250px; /* perché non ho contenuto */
-}
-
 .b-10{
     border-radius: 10px;
 }
@@ -190,12 +189,20 @@ h1{
     background-color: rgb(240, 128, 128);
 }
 
-.bg-blue{
+.bg-blue {
     background-color: rgb(37, 94, 233);
 }
 
-.bg-black{
+.bg-black {
     background-color: black;
+}
+
+.bg-gray {
+    background-color: rgb(246, 246, 246);
+}
+
+.bg-light-blue{
+    background-color: rgb(114, 137, 218);
 }
 
 .color-white {
@@ -248,6 +255,9 @@ h1{
 .text-center {
     text-align: center;
 }
+
+
+
 
 
 
