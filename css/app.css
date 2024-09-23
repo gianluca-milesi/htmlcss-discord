@@ -43,9 +43,10 @@ h1{
 
 .col-16{
     width: calc(100% / 6);
-    background-color: rgb(32, 178, 170);
-    border: 2px dashed white;
-    height: 346px; /* perché non ho contenuto */
+}
+
+.col-33{
+    width: calc((100% / 6) * 2);
 }
 
 .col-40 {
@@ -157,6 +158,7 @@ h1{
     background-color: rgb(35, 39, 42);
     border-top: 1px solid white;
 }
+
 .navbar-footer{
     display: flex;
     justify-content: space-between;
@@ -179,14 +181,6 @@ h1{
 
 .b-10{
     border-radius: 10px;
-}
-
-.bg-pink{
-    background-color: rgb(238, 130, 238);
-}
-
-.bg-darkpink{
-    background-color: rgb(240, 128, 128);
 }
 
 .bg-blue {
@@ -234,6 +228,9 @@ h1{
 
 .justify-center {
     justify-content: center;
+}
+.justify-start{
+    justify-content: flex-start;
 }
 
 .items-center{
