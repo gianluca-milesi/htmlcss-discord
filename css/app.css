@@ -7,7 +7,7 @@
 
 html {
     font-family: Roboto, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 ul,
@@ -85,7 +85,6 @@ h1{
     color: black;
     padding: 0 14px;
     border-radius: 999px;
-    font-size: 14px;
     line-height: 36px;
 }
 
@@ -94,7 +93,7 @@ h1{
 .hero {
     background: url(../img/jumbo.png);
     background-size: cover;
-    padding: 122px 320px;
+    padding: 122px 280px;
     text-align: center;
 }
 
@@ -104,7 +103,7 @@ h1{
     align-items: center;
     padding: 14px 0 0 0;
     gap: 18px;
-    scale: 1.15;
+    scale: 1.1;
 }
 
 .featured-products {
@@ -186,7 +185,7 @@ h1{
     color: white;
 }
 
-.lh-30{
+.lh-25{
     line-height: 25px;
 }
 
