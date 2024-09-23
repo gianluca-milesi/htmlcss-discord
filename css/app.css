@@ -109,9 +109,26 @@ h1{
     height: 100%;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
-    padding: 0 30px;
+    padding: 46px 30px 20px 30px;
+}
+
+.wave-upper-border{
+    color: rgb(246, 246, 246);
+    display: flex;
+    align-items: flex-end;
+}
+.wave-lower-border{
+    color: rgb(246, 246, 246);
+    display: flex;
+    transform: scaleY(-1);
+    align-items: flex-start;
+}
+.wave-upper-border{
+    color: rgb(246, 246, 246);
+    display: flex;
+    align-items: flex-end;
 }
 
 .vocal-banner {
@@ -150,10 +167,9 @@ h1{
     padding: 20px 0;
 }
 
-.padding-100y {
-    padding: 100px 0;
+.padding-80y {
+    padding: 80px 0;
 }
-
 
 .container.bg-green{
     background-color: green;
