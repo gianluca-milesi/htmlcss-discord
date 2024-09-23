@@ -1,0 +1,158 @@
+/* GENERALI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* LAYOUT */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 350px; /* perché non ho contenuto */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-16{
+    width: calc(100% / 6);
+    background-color: rgb(32, 178, 170);
+    border: 2px dashed white;
+    height: 346px; /* perché non ho contenuto */
+}
+
+.col-67 {
+    width: 67%;
+    background-color: rgb(30, 144, 255);
+    height: 346px; /* perché non ho contenuto */
+}
+
+.col-33 {
+    width: 33%;
+    background-color: rgb(255, 192, 203);
+    height: 346px; /* perché non ho contenuto */
+}
+
+.col-100{
+    width: 100%;
+}
+
+
+/* HEADER */
+.main-header {
+    padding: 10px 60px;
+    background-color: rgb(203, 236, 229);
+}
+
+.navbar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(203, 157, 38);
+}
+
+.main-menu {
+    display: flex;
+    gap: 10px;
+    padding: 0 150px;
+}
+
+
+/* MAIN (Sections) */
+.hero {
+    background-color: rgb(0, 0, 138);
+    padding: 40px 0;
+}
+
+.featured-products {
+    background-color: rgb(211, 211, 211);
+}
+
+.customer-reviews{
+    background-color: rgb(211, 211, 211);
+}
+
+.categories{
+    margin: 0 auto;
+    background-color: rgb(35, 39, 42);
+}
+
+
+/* FOOTER */
+.footer{
+    padding: 10px 60px 0 60px;
+    background-color: rgb(35, 39, 42);
+    border-top: 1px solid white;
+}
+.navbar-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    padding: 10px 0;
+    margin: 0 auto;
+    background-color: rgb(120, 238, 198);
+}
+
+
+/* UTILITIES */
+.padding-40y {
+    padding: 40px 0;
+}
+
+.container.bg-green{
+    background-color: green;
+}
+.h-600{
+    height: 600px;
+}
+
+.w-600 {
+    max-width: 600px;
+}
+
+.h-250{
+    height: 250px; /* perché non ho contenuto */
+}
+
+.b-10{
+    border-radius: 10px;
+}
+
+.bg-pink{
+    background-color: rgb(238, 130, 238);
+}
+
+.bg-darkpink{
+    background-color: rgb(240, 128, 128);
+}
+
+
+
+
+
+/* DEBUG */
+body.debug * :not(body > :nth-child(-n+3)):not(main > *):not(.row):not(.col-16){
+    border: 2px dashed black;
+}
