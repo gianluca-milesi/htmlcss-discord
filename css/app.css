@@ -22,9 +22,8 @@ img {
 
 /* LAYOUT */
 .container {
-    max-width: 800px;
+    max-width: 1024px;
     margin: 0 auto;
-    height: 350px; /* perché non ho contenuto */
 }
 
 .row {
@@ -62,20 +61,25 @@ img {
     background-color: rgb(203, 236, 229);
 }
 
-.navbar-header {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 10px;
-    max-width: 800px;
     margin: 0 auto;
-    background-color: rgb(203, 157, 38);
 }
 
 .main-menu {
     display: flex;
-    gap: 10px;
-    padding: 0 150px;
+    gap: 40px;
+}
+
+.accedi{
+    background-color: white;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 999px;
+    margin: 0 30px;
 }
 
 
@@ -146,6 +150,14 @@ img {
 
 .bg-darkpink{
     background-color: rgb(240, 128, 128);
+}
+
+.color-white {
+    color: white;
+}
+
+.bg-blue{
+    background-color: rgb(37, 94, 233);
 }
 
 
