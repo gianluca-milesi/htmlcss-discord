@@ -85,9 +85,8 @@ h1{
     color: black;
     padding: 0 12px;
     border-radius: 999px;
-    margin: 0 30px;
     font-size: 14px;
-    line-height: 34px;
+    line-height: 38px;
 }
 
 
@@ -95,7 +94,7 @@ h1{
 .hero {
     background: url(../img/jumbo.png);
     background-size: cover;
-    padding: 170px 300px;
+    padding: 100px 320px;
     text-align: center;
 }
 
@@ -141,6 +140,10 @@ h1{
     padding: 40px 0;
 }
 
+.padding-20y{
+    padding: 20px 0;
+}
+
 .container.bg-green{
     background-color: green;
 }
@@ -168,12 +171,20 @@ h1{
     background-color: rgb(240, 128, 128);
 }
 
+.bg-blue{
+    background-color: rgb(37, 94, 233);
+}
+
+.bg-black{
+    background-color: black;
+}
+
 .color-white {
     color: white;
 }
 
-.bg-blue{
-    background-color: rgb(37, 94, 233);
+.lh-30{
+    line-height: 25px;
 }
 
 .fs-16{
@@ -197,6 +208,14 @@ h1{
 
 .gap-20{
     gap: 20px;
+}
+
+.margin-30x{
+    margin: 0 30px;
+}
+
+.margin-30y{
+    margin: 0 0 30px 0;
 }
 
 
