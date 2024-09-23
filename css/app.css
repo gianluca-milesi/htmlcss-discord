@@ -91,7 +91,7 @@ h1{
 .hero {
     background: url(../img/jumbo.png);
     background-size: cover;
-    padding: 110px 280px;
+    padding: 80px 250px;
     text-align: center;
 }
 
@@ -99,7 +99,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 14px 0 0 0;
     gap: 18px;
     scale: 1.1;
 }
@@ -169,13 +168,6 @@ h1{
 
 .padding-80y {
     padding: 80px 0;
-}
-
-.container.bg-green{
-    background-color: green;
-}
-.h-600{
-    height: 600px;
 }
 
 .w-600 {
@@ -251,6 +243,10 @@ h1{
 
 .padding-24b{
     padding: 0 0 24px 0;
+}
+
+.text-center {
+    text-align: center;
 }
 
 
