@@ -114,8 +114,8 @@ h1{
     padding: 0 30px;
 }
 
-.featured-products {
-    background-color: rgb(211, 211, 211);
+.vocal-banner {
+    background-color: rgb(246, 246, 246);
 }
 
 .customer-reviews{
@@ -146,13 +146,14 @@ h1{
 
 
 /* UTILITIES */
-.padding-40y {
-    padding: 40px 0;
-}
-
 .padding-20y{
     padding: 20px 0;
 }
+
+.padding-100y {
+    padding: 100px 0;
+}
+
 
 .container.bg-green{
     background-color: green;
