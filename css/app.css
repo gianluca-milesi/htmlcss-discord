@@ -57,7 +57,24 @@ h1{
     width: 60%;
 }
 
+.btn-style{
+    background-color: white;
+    color: black;
+    padding: 0 16px;
+    border-radius: 999px;
+    line-height: 36px;
+    transition: 0.2s;
+}
 
+.text-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    padding: 46px 30px 20px 30px;
+}
 
 
 /* HEADER */
@@ -79,21 +96,17 @@ h1{
     gap: 36px;
 }
 
-.btn-style{
-    background-color: white;
-    color: black;
-    padding: 0 16px;
-    border-radius: 999px;
-    line-height: 36px;
-}
-
 
 /* MAIN (Sections) */
 .hero {
     background: url(../img/jumbo.png);
     background-size: cover;
-    padding: 80px 250px;
+    padding: 100px 250px;
     text-align: center;
+}
+
+.hero .text-box {
+    padding: 0 30px 30px 30px;
 }
 
 .external-links {
@@ -102,16 +115,6 @@ h1{
     align-items: center;
     gap: 18px;
     scale: 1.1;
-}
-
-.text-box {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: flex-start;
-    gap: 30px;
-    padding: 46px 30px 20px 30px;
 }
 
 .wave-upper-border{
@@ -125,12 +128,6 @@ h1{
     display: flex;
     transform: scaleY(-1);
     align-items: flex-start;
-}
-
-.wave-upper-border{
-    color: rgb(246, 246, 246);
-    display: flex;
-    align-items: flex-end;
 }
 
 .video-banner .container .subtitle{
@@ -254,13 +251,11 @@ h1{
 }
 
 
+/* HOVER */
+.btn-style:hover{
+    scale: 1.1;
+}
 
-
-
-
-
-
-/* DEBUG */
-body.debug * :not(body > :nth-child(-n+3)):not(main > *):not(.row):not(.col-16){
-    border: 2px dashed black;
+li a:hover{
+    color: black;
 }
